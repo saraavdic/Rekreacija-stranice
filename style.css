@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+header {
+    border-bottom: 1px solid #eeeeee;
+}
+
+.top-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo svg {
+    vertical-align: middle;
+}
+
+.search-bar {
+    padding: 10px;
+    font-size: 15px;
+    background-color: #f4f4f4;
+    border-color: white;
+    border-radius: 25px;
+    margin-left: 10px;
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+}
+
+.navigation a {
+    color: #3e3e3e;
+    text-decoration: none;
+    margin: 0 10px;
+    display: flex;
+    align-items: center;
+}
+
+.button {
+    background-color: #1a8917;
+    border: none;
+    border-radius: 25px;
+    font-size: 15px;
+    color: white;
+    padding: 10px 20px;
+    margin-left: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+.main-content {
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    max-width: 700px; 
+    margin: 0 auto; 
+    padding: 20px; 
+}
+.main-content img {
+    display: block; /* slika je u svojoj liniji */
+    margin: 0 auto; /* centrira sliku horizontalno */
+    max-width: 100%; /* uvjerava se da je slika pravilno skalirana */
+    height: auto; /* održava omjer stranica */
+}
